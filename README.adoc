@@ -1,0 +1,16 @@
+﻿= Asciidoctor Lazy Images
+
+This is a small extension that adds the https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading[lazy loading attribute] to every image in a rendered HTML5 file.
+
+This makes it so that the page loads faster and unnecesary bandwidth isn't consumed.
+
+== Installation
+Install the gem using
+
+[source, shell]
+gem install asciidoctor-lazy-images
+
+And compile your files using the `-r` flag:
+
+[source, shell]
+asciidoctor -r asciidoctor-lazy-images demo.adoc
